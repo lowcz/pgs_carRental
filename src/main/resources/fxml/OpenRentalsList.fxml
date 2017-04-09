@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersFX.OpenRentalsListController">
+   <children>
+      <TableView fx:id="tableView">
+        <columns>
+            <TableColumn fx:id="col_customerId" prefWidth="100.0" text="id_klienta" />
+            <TableColumn fx:id="col_firstname" prefWidth="100.0" text="imię" />
+            <TableColumn fx:id="col_lastname" prefWidth="100.0" text="nazwisko" />
+            <TableColumn fx:id="col_carId" prefWidth="100.0" text="id_samochodu" />
+            <TableColumn fx:id="col_brand" prefWidth="100.0" text="marka" />
+            <TableColumn fx:id="col_model" prefWidth="100.0" text="model" />
+            <TableColumn fx:id="col_start" prefWidth="100.0" text="start" />
+            <TableColumn fx:id="col_end" prefWidth="100.0" text="koniec" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

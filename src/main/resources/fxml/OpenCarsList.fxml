@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersFX.OpenCarsListController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <ToggleButton fx:id="switchButton" mnemonicParsing="false" onAction="#switchButtonAction" prefHeight="35.0" prefWidth="200.0" text="pokaż tylko dostępne">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </ToggleButton>
+            <TableView fx:id="tableView">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="50.0" text="id" />
+                <TableColumn fx:id="col_brand" prefWidth="100.0" text="marka" />
+                <TableColumn fx:id="col_model" prefWidth="100.0" text="model" />
+                <TableColumn fx:id="col_color" prefWidth="100.0" text="kolor" />
+                <TableColumn fx:id="col_year" prefWidth="100.0" text="rok produkcji" />
+                <TableColumn fx:id="col_mileage" prefWidth="100.0" text="przebieg (km)" />
+                <TableColumn fx:id="col_cost" prefWidth="100.0" text="koszt (zł/dzień)" />
+                <TableColumn fx:id="col_available" prefWidth="75.0" text="dostępny" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

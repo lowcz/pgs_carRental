@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersFX.OpenCustomersListController">
+   <children>
+      <TableView fx:id="tableView">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="50.0" text="id" />
+          <TableColumn fx:id="col_firstname" prefWidth="100.0" text="imię" />
+          <TableColumn fx:id="col_lastname" prefWidth="100.0" text="nazwisko" />
+          <TableColumn fx:id="col_dateOfBirth" prefWidth="100.0" text="data urodzenia" />
+          <TableColumn fx:id="col_phoneNumber" prefWidth="100.0" text="nr telefonu" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

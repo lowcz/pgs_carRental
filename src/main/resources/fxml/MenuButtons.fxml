@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersFX.MenuButtonsController">
+   <children>
+      <ToggleButton mnemonicParsing="false" onAction="#OpenCustomersList" prefHeight="70.0" prefWidth="120.0" text="Lista klientów">
+         <toggleGroup>
+            <ToggleGroup fx:id="ToggleGroup" />
+         </toggleGroup>
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#AddCustomer" prefHeight="70.0" prefWidth="120.0" text="Dodaj klienta" toggleGroup="$ToggleGroup">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#OpenCarsList" prefHeight="70.0" prefWidth="120.0" text="Lista Samochodów" toggleGroup="$ToggleGroup">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#AddCar" prefHeight="70.0" prefWidth="120.0" text="Dodaj samochód" toggleGroup="$ToggleGroup">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#OpenRentalsList" prefHeight="70.0" prefWidth="120.0" text="Historia zamówień" toggleGroup="$ToggleGroup">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#AddRental" prefHeight="70.0" prefWidth="120.0" text="Dodaj zamówienie" toggleGroup="$ToggleGroup">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ToggleButton>
+   </children>
+</HBox>
