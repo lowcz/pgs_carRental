@@ -17,6 +17,7 @@ public class MainApp extends Application {
         Scene scene = new Scene(borderPane);
         stage.setTitle("Wypożyczalnia samochodów");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
     

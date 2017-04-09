@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersFX.AboutController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="74.0" text="Wypożyczalnia samochodów" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="7.0" layoutY="145.0" prefHeight="145.0" prefWidth="295.0" text="Autor: Paweł Łowczowski&#10;&#10;Aplikacja wspomagająca pracę wypożyczalni samochodów. Pozwala na podstawowe operacje na wbudowanej bazie danych." wrapText="true" />
+      <ImageView fitHeight="294.0" fitWidth="446.0" layoutX="325.0" layoutY="63.0" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/model-car.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelPicture" layoutX="390.0" layoutY="346.0" prefHeight="17.0" prefWidth="317.0" text="źródło: https://pixabay.com/pl/model-samochodu-corvette-2087048/">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -24,6 +24,7 @@ public class FXMLController {
     @FXML
     public void initialize() {
         menuButtonsController.setMainController(this);
+        this.setCenter(menuButtonsController.ABOUTFXML);
         Application.setUserAgentStylesheet(STYLESHEET_CASPIAN);
         databaseController = new CarRental();
         menuButtonsController.setDatabaseController(databaseController);

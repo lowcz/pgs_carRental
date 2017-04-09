@@ -12,6 +12,7 @@ public class MenuButtonsController {
     public static final String OPEN_CUSTOMERS_LISTFXML = "/fxml/OpenCustomersList.fxml";
     public static final String OPEN_RENTALS_LISTFXML = "/fxml/OpenRentalsList.fxml";
     public static final String ADD_RENTALFXML = "/fxml/AddRental.fxml";
+    public static final String ABOUTFXML = "/fxml/About.fxml";
     
     private FXMLController mainController;
     private static CarRental databaseController;
@@ -27,7 +28,6 @@ public class MenuButtonsController {
     
     @FXML
     public void initialize() {
-        // TODO
         
     }
 
